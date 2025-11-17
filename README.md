@@ -6,7 +6,7 @@ A custom website to display my capabilities.
 
 This portfolio project was created as part of the Codecademy Front-End Engineer course to practice and apply my HTML, CSS, and basic JavaScript skills.
 
-## Authors
+## Author
 
 [Koustav Sarkar](https://github.com/koustavcodes)
 
