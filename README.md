@@ -10,6 +10,6 @@ This portfolio project was created as part of the Codecademy Front-End Engineer 
 
 [Koustav Sarkar](https://github.com/koustavcodes)
 
-## DEPLOY STATUS
+## Deploy Status
 
 **Deployed using GitHub Pages live website:** [https://koustavcodes.github.io/portfolio/](https://koustavcodes.github.io/portfolio/)
