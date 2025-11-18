@@ -554,3 +554,250 @@ footer {
 footer > p {
     padding: 25px;
 }
+
+/* RESPONSIVE SIZING */
+@media screen and (max-width: 1300px) {
+    .hero-intro {
+        font-size: 4.5vw;
+        line-height: 10vw;
+    }
+
+    .hero-name {
+        font-size: 15.3vw;
+        line-height: 10vw;
+    }
+
+    .hero-name::after {
+        top: 82%;
+        right: -6.2%;
+        width: 38vw;
+        height: 13vw;
+    }
+
+    #hero-section > img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.on .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.on .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.on .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #header-menu {
+        position: fixed;
+        left: 100%;
+        top: 60px;
+        gap: 20px;
+        flex-direction: column;
+        background-color: #dbd3c1;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        padding: 45px 0px;
+    }
+
+    nav,
+    nav > * {
+        align-items: center;
+    }
+
+    #contact-btn {
+        margin-left: 0px;
+    }
+
+    .active {
+        background: #c5beac;
+        position: relative;
+    }
+
+    #header-menu.on {
+        left: 0px;
+    }
+
+    .red-heading {
+        font-size: 3rem;
+    }
+
+    .about-heading::after {
+        right: -90px;
+        width: 75px;
+        height: 85px;
+    }
+
+    #portfolio-heading-support {
+        font-size: 1.8rem;
+    }
+
+    #portfolio-heading-support::after {
+        bottom: -20px;
+        height: 30px;
+        width: 120px;
+    }
+
+    #contact-heading::after {
+        right: -160px;
+        width: 400px;
+    }
+
+    #contact-hero-img {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero-section > * {
+        position: relative;
+        top: -40px;
+    }
+
+    #hero-section > img {
+        width: 40vw;
+        margin-bottom: 25px;
+    }
+
+    .red-heading {
+        font-size: 2rem;
+    }
+
+    .red-heading::after {
+        right: -60px;
+        width: 50px;
+        height: 75px;
+    }
+
+    #portfolio-heading-support {
+        font-size: 1.3rem;
+    }
+
+    #portfolio-heading-support::after {
+        bottom: -20px;
+        height: 30px;
+        width: 90px;
+    }
+
+    #contact-heading::after {
+        right: -120px;
+        top: -50px;
+        width: 280px;
+    }
+
+    #contatc-hero-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #about-section {
+        width: 80%;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 120px 0px 100px 0px;
+        justify-self: center;
+    }
+
+    #about-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+
+    #portfolio-section {
+        width: 80%;
+        max-width: 1300px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        padding: 20px 0px;
+    }
+
+    #portfolio-heading-support {
+        font-size: 1.1rem;
+    }
+
+    #portfolio-heading-support::after {
+        bottom: -20px;
+        height: 30px;
+        width: 90px;
+    }
+
+    #contact-section {
+        width: 80%;
+        max-width: 1300px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        padding: 80px 0px;
+    }
+
+    #contact-heading::after {
+        display: none;
+    }
+
+    #contact-heading {
+        margin-bottom: 20px;
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: max-content;
+    }
+
+    #hero-section > * {
+        position: relative;
+        top: 0px;
+    }
+
+    #hero-section > img {
+        width: 300px;
+        margin: 25px 0px;
+    }
+
+    .hero-name {
+        font-size: 5rem;
+        line-height: 3.4rem;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .hero-intro {
+        font-size: 1.55em;
+        line-height: 4rem;
+    }
+
+    .skill-card {
+        width: 50px;
+        height: 50px;
+    }
+
+    #header-container {
+        padding: 0 30px;
+    }
+}
