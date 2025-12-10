@@ -8,7 +8,7 @@ This portfolio project was created as part of the Codecademy Front-End Engineer 
 
 ## Author
 
-[Koustav Sarkar](https://github.com/koustavcodes)
+[Koustav Sarkar](https://github.com/koustav28)
 
 ## Deploy Status
 
